@@ -1,12 +1,21 @@
 
 # Usage
 
-Log files will be written to files in the directory `/tmp/explorer`. Ensure this directory exists. 
+Start the application.
 
-Decompiler files will be written to files in the directory `/tmp/jdec`. Ensure this directory exists.
+* Drag and drop file to the second entry
 
+or
 
-# Explorer
+* Enter filename in first entry
+
+or
+
+* Copy and paste file contents to the content pane.
+
+Do this for two files and then select Compare.
+
+# Diff
 
 At Github, create repository `java-diff`
 
@@ -64,14 +73,14 @@ Copy code to this package and change package names.
 
 ## Script file
 
-`/Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-explorer/Explorer/diff.command`
+`/Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-explorer/Diff/diffGui.command`
 
 
 ## Create Alias
 
 In Finder
 
-* select `diff.command`
+* select `diffGui.command`
 * right click, Make Alias
 * rename to `diff.command`
 * move alias to `/Users/jv/Desktop/MyDevelopment/github/repo_shell_scripts/mac/JVTools/`
