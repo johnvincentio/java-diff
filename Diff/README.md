@@ -82,7 +82,7 @@ In Finder
 
 * select `diffGui.command`
 * right click, Make Alias
-* rename to `diff.command`
+* rename to `diffGui.command`
 * move alias to `/Users/jv/Desktop/MyDevelopment/github/repo_shell_scripts/mac/JVTools/`
 
 # END
