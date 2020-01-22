@@ -1,7 +1,7 @@
 
 # Usage
 
-Start the application.
+Start the application `diff.command`
 
 * Drag and drop file to the second entry
 
@@ -73,16 +73,16 @@ Copy code to this package and change package names.
 
 ## Script file
 
-`/Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-explorer/Diff/diffGui.command`
+`/Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-explorer/Diff/diff.command`
 
 
 ## Create Alias
 
 In Finder
 
-* select `diffGui.command`
+* select `diff.command`
 * right click, Make Alias
-* rename to `diffGui.command`
 * move alias to `/Users/jv/Desktop/MyDevelopment/github/repo_shell_scripts/mac/JVTools/`
+* rename to `diff.command`
 
 # END
