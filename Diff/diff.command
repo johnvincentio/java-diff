@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# script to run java app Diffall
+# script to run java app Diff
 #
 DEV_HOME=/Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-diff/Diff
 #
