@@ -1,7 +1,7 @@
 
 # Usage
 
-Start the application `diff.command`
+Start the application `java-diff`
 
 * Drag and drop file to the second entry
 
@@ -73,16 +73,41 @@ Copy code to this package and change package names.
 
 ## Script file
 
-`/Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-explorer/Diff/diff.command`
+`/Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-diff/Diff/diff.command`
 
+## Create Symbolic Link
 
-## Create Alias
+```
+ln -s /Users/jv/Desktop/MyDevelopment/github/java/Utilities/java-diff/Diff/diff.command /Users/jv/Desktop/MyDevelopment/github/repo_shell_scripts/mac/unix-scripts/bin/java-diff
+```
 
-In Finder
+## Save java-diff as a Mac App
 
-* select `diff.command`
-* right click, Make Alias
-* move alias to `/Users/jv/Desktop/MyDevelopment/github/repo_shell_scripts/mac/JVTools/`
-* rename to `diff.command`
+Execute from Finder
 
-# END
+* Go, Applications
+* Execute: Automator (or Automator.app)
+
+Select
+
+* Quick Action, or
+* Application
+
+and then select `Choose`
+
+From the middle pane, double click Run Shell Script
+
+Shell: /bin/bash
+Pass input: as arguments
+
+```
+/Users/jv/Desktop/MyDevelopment/github/repo_shell_scripts/mac/unix-scripts/bin/java-diff
+```
+
+To save: 
+
+* File, Save:
+* Save as: java-diff
+* Where: Applications
+
+saves java-diff.app in Applications.
