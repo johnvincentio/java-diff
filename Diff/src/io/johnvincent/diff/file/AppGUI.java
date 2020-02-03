@@ -22,7 +22,7 @@ public class AppGUI extends JFrame {
 		m_workDirectory.mkdirs();
 	}
 	public static void main (String args[]) {
-		JFrame frame = new AppGUI ("Compare Application");
+		JFrame frame = new AppGUI ("Compare Two Files Application");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 	private Container makeMyContentPane() {
