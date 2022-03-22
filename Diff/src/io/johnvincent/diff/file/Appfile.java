@@ -12,6 +12,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 import javax.swing.BorderFactory;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
@@ -39,12 +40,14 @@ public class Appfile extends JPanel {
 		pane.setLayout(new BorderLayout());
 
 		JPanel topPane = new JPanel();
+		topPane.add (new JLabel ("Path"), BorderLayout.CENTER);
 		m_filenameField = new JTextField(20);
 		topPane.add (m_filenameField, BorderLayout.CENTER);
 
 		m_dataField = new JTextField(5);
 		m_dataField.addActionListener (new AppfileActionListener (this));
 		new DropTarget (m_dataField, DnDConstants.ACTION_COPY, new AppfileDropTargetListener (this, false));
+		topPane.add (new JLabel ("or DnD"), BorderLayout.EAST);
 		topPane.add(m_dataField, BorderLayout.EAST);
 
 		JPanel midPane = new JPanel();
